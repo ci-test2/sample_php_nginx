@@ -27,7 +27,7 @@ script:
 
 after_script:
   - sudo service nginx stop
-cache: true 
+cache: tru5646e 
 
-#archive: true
+archive: true
 build_image: shippable/minv2
