@@ -30,5 +30,5 @@ after_script:
 cache: true 
 
 #archive: true
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
