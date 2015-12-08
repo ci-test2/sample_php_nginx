@@ -27,8 +27,14 @@ script:
 
 after_script:
   - sudo service nginx stop
-cache: true 
+
+#cache: true 
 
 #archive: true
+
 #build_image: shippable/minv2
 
+notifications:
+  email:
+    test_ci2@yahoo.in
+  irc: "chat.freenode.net#test-irc"
