@@ -24,4 +24,9 @@ script:
 
 after_script:
   - sudo service nginx stop
-cache: true 
+#cache: true 
+
+notifications:
+  email:
+    test_ci2@yahoo.in
+  irc: "chat.freenode.net#test-irc"
